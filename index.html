@@ -14,17 +14,18 @@
       font-family:Roboto;
     }
     body{
+    }
+    #page{
+      width:800px;
+      height:100vh;
+      margin:0 auto;
       background-color:#f2f3f5;
-      padding:30px;
+      padding:0 60px;
     }
     #intro{
-      width:750px;
-      margin:0 auto;
       text-align:center;
     }
     #main{
-      width:750px;
-      margin:0 auto;
       margin-top:30px;
       text-align:left;
     }
@@ -69,23 +70,25 @@
   </style>
 </head>
 <body>
-  <div id='intro'>
-    <h1 id='title'>realnotes</h1>
-    <h2 id='reality'>notes on reality</h2> 
-    <h2 class='grey'>("is there going to be a test on this?")</h2>
-    <h2 id='music'>especially music notes</h2>
-    <h2 class='grey'>listen to these ones</h2>
-    <audio controls id='notes'><source src='https://mail.google.com/mail/u/1?ui=2&ik=83d47358ce&attid=0.1&permmsgid=msg-a:r-8589870356261837376&th=18f1aa3184297d1e&view=att&disp=safe&realattid=f_lvgq0cq40'></audio>
-  </div>
-  <div id='main'>
-    <p id='message'></p>
-    <ul id='webpagelist'>
-      <li><a href='https://realnotes.github.io/thearena'>visit the arena</a></li>
-      <li><a href='https://realnotes.github.io/ask'>ask a question</a></li>
-      <li><a href='https://realnotes.github.io/orbits'>count orbits</a></li>
-      <li><a href='https://realnotes.github.io/cube2x2'>solve a 2x2 cube</a></li>
-      <li><a href='https://realnotes.github.io/colorguessr'>guess colors</a></li>
-    </ul>
+  <div id='page'>
+    <div id='intro'>
+      <h1 id='title'>realnotes</h1>
+      <h2 id='reality'>notes on reality</h2> 
+      <h2 class='grey'>("is there going to be a test on this?")</h2>
+      <h2 id='music'>especially music notes</h2>
+      <h2 class='grey'>listen to these ones</h2>
+      <audio controls id='notes'><source src='https://mail.google.com/mail/u/1?ui=2&ik=83d47358ce&attid=0.1&permmsgid=msg-a:r-8589870356261837376&th=18f1aa3184297d1e&view=att&disp=safe&realattid=f_lvgq0cq40'></audio>
+    </div>
+    <div id='main'>
+      <p id='message'></p>
+      <ul id='webpagelist'>
+        <li><a href='https://realnotes.github.io/thearena'>visit the arena</a></li>
+        <li><a href='https://realnotes.github.io/ask'>ask a question</a></li>
+        <li><a href='https://realnotes.github.io/orbits'>count orbits</a></li>
+        <li><a href='https://realnotes.github.io/cube2x2'>solve a 2x2 cube</a></li>
+        <li><a href='https://realnotes.github.io/colorguessr'>guess colors</a></li>
+      </ul>
+    </div>
   </div>
   <script>
     var messages = [
